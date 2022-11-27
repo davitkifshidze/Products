@@ -1,0 +1,133 @@
+/* Product Add Page */
+.product__add__container{
+    padding: 20px 0;
+}
+.header__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+}
+.form__container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.form__group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: wrap;
+    width: 350px;
+}
+.form__group input,select{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+}
+.custom__form__group{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    background-color: #dddddd;
+    width: 410px;
+}
+.custom__form__group input,select{
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+}
+.input__name{
+    font-size: 16px;
+    color:black;
+    width: 150px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#type__switcher option:first-child {
+    display: none !important;
+}
+
+/* Product List Page */
+.product__list__container{
+    padding: 20px 0;
+}
+.list__action__form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+#delete__switcher option:first-child {
+    display: none !important;
+}
+.apply__btn{
+    width: 200px;
+    height: 40px;
+    background: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.delete__switcher__container , .delete__btn__container{
+    margin: 0 10px;
+    padding: 5px;
+}
+.product__box{
+    width: 290px;
+    height: 250px;
+    padding: 10px;
+    margin: 20px 0 10px 0 !important;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.checkbox__container input{
+    cursor: pointer;
+}
+.product__info__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.product__info__container p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.type__property{
+    color: black;
+    font-size: 20px;
+}
+
+/*Validate Error*/
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+label.error.fail-alert {
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 2px 0 6px 6px;
+    background: #ffe6eb;
+    width: 100%;
+}
+
+input.valid.success-alert {
+    border: 2px solid #4CAF50;
+    color: green;
+}
+
+input.error, textarea.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
