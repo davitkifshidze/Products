@@ -1,0 +1,15 @@
+{
+    "name": "davit/www",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davit Kifshidze",
+            "email": "davitkifshdize@gmail.com"
+        }
+    ],
+    "require": {}
+}
